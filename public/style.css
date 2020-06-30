@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    height: 100vh;
+    background: url(./images/header-bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.menu {
+    background: transparent !important;
+    border-bottom: 1px solid gray;
+}
+
+a.navbar-brand.logo {
+    color: white;
+}
+
+.banner {
+    color: white;
+}
+
+.banner__text,.start__title,.template__title,.download__title,.footer__title {
+    padding-top: 20%;
+    font-size: 40px;
+    position: relative;
+    padding-bottom: 30px;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.banner__text:after {
+    content: '';
+    display: block;
+    width: 100px;
+    height: 3px;
+    background-color: tomato;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    margin-left: -50px;
+}
+
+.banner__description,.start__description,.footer__description {
+    font-size: 15px;
+}
+
+.banner__button,.start__button,.download__button {
+    padding: 15px 50px;
+    border-radius: 40px;
+}
+
+ul.nav.navbar-nav.text-lg-right.text-center.menu__right li a {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* css for content 2 */
+.start {
+    background-color: #F05F40;
+    color: white;
+    padding-bottom: 100px;
+}
+
+.start__title,.template__title,.download__title,.footer__title {
+    padding-top: 10%;
+}
+
+.start__title:after {
+    background-color: darkgoldenrod;
+}
+
+.start__button {
+    background: white;
+    color: black;
+}
+
+.template {
+    padding-bottom: 100px;
+}
+
+
+
+i.fas.fa-3x.mb-3.icon--color {
+    color: red;
+}
+
+.row [class*='col-'] {
+    padding: 0;
+}
+
+.company__product {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.company__product img {
+    width: 100%;
+}
+
+.company__product .company__name {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    background: rgba(240, 95, 64, 0.55);
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.company__product .company__name:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.company__detail {
+    position: absolute;
+    top: 50%;
+    height: 50px;
+    margin-top: -25px;
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+}
+
+.company__detail__category {
+    font-size: 15px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.company__detail__name {
+    font-weight: 700;
+}
+
+.logo {
+    transition: 0.4s;
+}
+
+.logo .orange {
+    color: #F05F40;
+    font-size: 30px;
+}
+
+.navbar {
+    transition: 0.4s;
+}
+
+.navbar.navbar__backgroundWhite {
+    background-color: white;
+    transition: 0.4s;
+}
+
+.company-row {
+    width: 100%;
+    margin: 0;
+}
+
+.download {
+    background: #000000cf;
+}
+
+.download__title--colorWhite {
+    color: white;
+}
+
+.title-content5::after {
+    opacity: 0;
+}
+
+.download__button {
+    margin-bottom: 10%;
+    background: white;
+    color: #000000cf;
+    border: 0;
+}
+
+.title-content6 {
+    padding-top: 15%;
+}
+
+.footer__description--colorRed {
+    color: red;
+    padding-bottom: 50%;
+}
+
+.footer__description-fonts {
+    font-family: 'Patrick Hand', cursive;
+}
+
+@media (max-width: 991.98px) {
+    * {}
+
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.menu {
+        background-color: black !important;
+    }
+
+    a.nav-link {
+        font-size: 20px;
+        border-bottom: 1px dashed gray;
+    }
+
+    a.nav-link:hover {
+        background-color: brown;
+    }
+
+    .banner__text {
+        font-size: 20px;
+        padding-top: 40%;
+    }
+
+    .banner__description,.start__description,.footer__description {
+        font-size: 12px;
+    }
+}

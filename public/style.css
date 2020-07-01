@@ -18,8 +18,16 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.menu {
     border-bottom: 1px solid gray;
 }
 
+nav.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top.menu {
+    background-color: #e6e6e6 !important;
+}
+
 a.navbar-brand.logo {
-    color: white;
+    color: #F05F40;
+}
+
+a.navbar-brand.logo:hover {
+    color: #F05F40;
 }
 
 .banner {
@@ -63,7 +71,6 @@ ul.nav.navbar-nav.text-lg-right.text-center.menu__right li a {
     padding-right: 16px;
 }
 
-/* css for content 2 */
 .start {
     background-color: #F05F40;
     color: white;

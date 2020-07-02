@@ -13,13 +13,9 @@ header {
     background-size: cover;
 }
 
-nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.menu {
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.menu {
     background: transparent !important;
     border-bottom: 1px solid gray;
-}
-
-nav.navbar.navbar-expand-lg.navbar-light.bg-dark.fixed-top.menu {
-    background-color: #e6e6e6 !important;
 }
 
 a.navbar-brand.logo {
@@ -154,24 +150,6 @@ i.fas.fa-3x.mb-3.icon--color {
     font-weight: 700;
 }
 
-.logo {
-    transition: 0.4s;
-}
-
-.logo .orange {
-    color: #F05F40;
-    font-size: 30px;
-}
-
-.navbar {
-    transition: 0.4s;
-}
-
-.navbar.navbar__backgroundWhite {
-    background-color: white;
-    transition: 0.4s;
-}
-
 .company-row {
     width: 100%;
     margin: 0;
@@ -209,7 +187,119 @@ i.fas.fa-3x.mb-3.icon--color {
     font-family: 'Patrick Hand', cursive;
 }
 
-@media (max-width: 991.98px) {
+/* custom bootstrap column */
+.custom__bootstrap {
+    width: 100%;
+    height: 500px;
+    background-color: #eceece;
+}
+
+.custom__container {
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #F05F40;
+}
+
+.custom__row {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.custom__col-1 {
+    width: 6.66666666667%;
+    background-color: aqua;
+    height: 100%;
+}
+
+.custom__col-2 {
+  width: 13.3333333333%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-3 {
+  width: 20%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-4 {
+  width: 26.66666666667%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-5 {
+  width: 33.3333333333%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-6 {
+  width: 40%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-7 {
+  width: 46.66666666667%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-8 {
+  width: 53.3333333333%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-9 {
+  width: 60%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-10 {
+  width: 66.66666666667%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-11 {
+  width: 73.3333333333%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-12 {
+  width: 80%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-13 {
+  width: 86.66666666667%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-14 {
+  width: 93.3333333333%;
+  background-color: aqua;
+  height: 100%;
+}
+
+.custom__col-15 {
+  width: 100%;
+  background-color: aqua;
+  height: 100%;
+}
+
+@media (max-width: 575.98px) { 
     * {}
 
     nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.fixed-top.menu {
@@ -232,5 +322,29 @@ i.fas.fa-3x.mb-3.icon--color {
 
     .banner__description,.start__description,.footer__description {
         font-size: 12px;
+    }
+}
+
+@media (min-width: 576px) {
+    .custom__container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .custom__container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom__container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .custom__container {
+        max-width: 1140px;
     }
 }
